@@ -1,0 +1,232 @@
+*{
+    width: 100%;
+    font-size: 12pt;
+    font-family: sans-serif;
+    background: white;
+    text-align:left;
+    margin:0px;
+    padding:0px;
+    display:block;
+    top:0%;
+    height: auto;
+    opacity:1;
+    border:none;
+    text-shadow:none;
+    font-weight: normal;
+    box-shadow:none;
+    color:black;
+}
+aside, img, script, a:hover, a:active, button, h2 {
+    display: none;
+    box-shadow: none;
+    
+}
+nav ul li {
+    border:none;
+    margin:0px;
+    text-decoration: underline;
+}
+a link ul li {
+    color:black;
+    text-shadow: none;
+    box-shadow: none;
+}
+footer{
+    display:none;
+}
+p, details, summary{
+    margin-top:10px;
+    color: black;
+}
+button{
+    border:none;
+    margin:0px;
+    text-decoration: underline;
+}
+
+/**{
+    box-sizing: border-box;
+    
+}
+.row::after{
+    content:"";
+    clear: both;
+    display:table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+body {
+    font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        max-width:1200px;
+        background:url('media/background.jpg');
+        background-repeat:no-repeat;
+        background-position:center top;
+        background-size:cover;
+}
+.sidenav {
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:lightsteelblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-top: 100px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+    background: peachpuff;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#picWindow { 
+   
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    border: 2px solid;
+    background-color: burlywood;
+}
+#myTitle{
+    transition: margin-left .5s;
+    padding: 16px;
+}
+@madia screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;} /*decrease padding-top for mobile*/
+/*    .sidenav a {font-size: 18px;} /*decrease link font-size for mobile*/
+/*
+}
+footer {
+    margin-top:none;
+    padding-top: 50px;
+}
+.icon-bar {
+    width: 100%; /* Full-width */
+ /*   background-color: darkorange; 
+    overflow: auto; /* Overflow due to float */
+/*}
+/*
+.icon-bar a {
+    float: left; /* Float links side by side */
+/*    text-align: center; /* Center-align text */
+/*    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+/*    padding: 12px 0; /* Some top and bottom padding */
+/*    transition: all 0.3s ease; /* Add transition for hover effects */
+/*    color: white; /* White text color */
+/*    font-size: 19px; /* Increased font size */
+/*}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+/*}	
+/* For mobile phones: */
+/*[class*="col-"] {
+    width: 100%; /* this is being overriden in tablet and desktop */
+/*    float:left; /* setting defaults for everything including tablet and desktop */
+/*    padding:15px; /* setting defaults for everything including tablet and desktop */
+
+/*}
+@media only screen and (min-width: 600px) {
+/* For tablets: */
+/*    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+/* For desktop: */
+/*    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+}
+button{
+    padding: 2px;
+    background:rgb(68, 52, 31);
+    color:white;  
+	text-align:center;
+	width:75px;
+	padding:10px;
+    box-shadow:2px 2px black;   
+}
+button:hover{
+	background-color:red;
+	color:white;
+	box-shadow:2px 2px gray;	
+}
+img{
+    
+    background:#444;
+    outline:none;
+    outline-offset:none; 
+      
+}   
+h1 {
+    font-size: 3vw;
+} 
+h2 {
+    color: black;
+}
+nav ul li{
+	display:block;
+	margin-top:50px;
+}
+nav ul{
+	list-style:none;
+}
+a:link, a:visited{
+	text-decoration:none;
+	background-color: none;
+	color:white;
+	box-shadow:2px 2px gray;
+	padding:10px;
+    margin-bottom:30px;
+    background:rgb(68, 52, 31);
+    box-shadow:3px 3px black;
+    height: 50px;
+}
+a:hover, a:active{
+	text-decoration:none;
+	background-color:darkorange;
+	color:white;
+	box-shadow:2px 2px gray;
+}
+*/
